@@ -1,0 +1,44 @@
+body {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;
+
+        max-width: 1200px;
+		margin: 2rem auto;
+        background-color: bisque;
+        font-family: 'Reem Kufi', sans-serif;
+}
+header {grid-column: 1/4;
+}
+main {grid-column: 1/3;
+}
+aside {grid-column: 1/3;
+}
+
+
+footer {
+    grid-column: 2/4;
+}
+
+figcaption {
+    font-family: 'Alatsi', sans-serif;
+}
+
+figure {
+    border: 15pt;
+    box-shadow: blueviolet;
+}
+
+h1 {
+        font-family: 'Chakra Petch', sans-serif;;
+        color: #db5314;
+}
+
+p {
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgb(17, 18, 20);
+    
+}
+
+
